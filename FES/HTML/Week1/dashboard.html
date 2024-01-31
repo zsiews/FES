@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard and Lists</title>
+  </head>
+  <body>
+    <!-- always have nav for logo & links -->
+
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./login.html">Login</a>
+      <div></div>
+      <!-- use logo from outside source -->
+      <img
+        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        alt="Google Logo"
+      />
+      <!-- link index.html with test home -->
+      <!-- "./" look in the same level to find a file -->
+      <a href="./index.html">Home</a>
+    </nav>
+    <main>
+      <!-- section unordered list -->
+      <section>
+        <h1>TODO List</h1>
+        <!-- show about image form local directory -->
+        <div>
+          <img src="./assets/about.jpg" alt="about" />
+        </div>
+        <div>
+          <!-- Show discord image on page -->
+          <h2>Discord</h2>
+          <img src="./assets/discord.png" alt="discord logo" />
+          <!-- to get to folders outside of same directory, use '../' to look at parent(s) directories  -->
+        </div>
+
+        <ul>
+          <li>Land 100k+ job</li>
+          <li>Finish Frontend Simplified</li>
+          <li>Network with other people in the Discord Server</li>
+        </ul>
+      </section>
+      <!-- section ordered list -->
+      <section>
+        <h1>Land $100k+ job</h1>
+        <ol>
+          <li>FInish Frontend Simplified</li>
+          <li>Study for interviews</li>
+          <li>Apply to jobs</li>
+        </ol>
+      </section>
+    </main>
+    <!-- create footer -->
+    <footer>Copyright terms & conditions</footer>
+  </body>
+</html>
