@@ -39,5 +39,8 @@ div {
   /* make text bold */
   font-weight: 600; /* can also use font-weight: bold; */
   /* webpage will attempt to change font to Roboto as priority. If browser/webpage does not support Roboto, fall back to sans-serif font */
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.big {
+  font-size: 100px;
 }

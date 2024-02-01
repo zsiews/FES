@@ -1,0 +1,35 @@
+/* p {
+    color: red;
+} */
+
+/* css prioritizes lower tags before higher of same styles targeting same property */
+/* p {
+    color: blue;
+} */
+
+/* turns element with class red color red */
+.red {
+  color: red;
+}
+
+/* turns element with class blue color blue */
+.blue {
+  color: blue;
+}
+
+/* classes will be prioritized over p tag because they are more specific; regardless of priority */
+p {
+  color: black;
+}
+
+#title {
+  font-weight: bold;
+  color: green;
+}
+#subtitle {
+  color: purple;
+}
+
+section {
+    border: 3px solid black;
+}
