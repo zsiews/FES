@@ -1,0 +1,43 @@
+/* external CSS */
+h3 {
+  /* set text color to green */
+  color: green;
+  /* set text bg to yellow*/
+  background-color: yellow;
+}
+div {
+  /* set text color to white */
+  color: white;
+  /* set width & height of div to 500px (hard coding)*/
+  width: 500px;
+  height: 500px;
+  /* make div bg pink */
+  background-color: pink;
+}
+
+.container {
+  /* make width of element dynamic, with max width of 200px */
+  width: 100%;
+  max-width: 200px;
+  height: 200px;
+  /* bg color orange */
+  background-color: orange;
+  /* text color black */
+  color: black;
+}
+
+.div1 {
+  color: green;
+  width: 100%;
+  max-width: 200px;
+  /* vh = viewpoint height: takes 80% of the height of your screen; most commonly used in landing pages */
+  height: 80vh;
+  /* set a 1px black border around element */
+  border: 1px solid rgb(0, 0, 0);
+  /* change text size */
+  font-size: 22px;
+  /* make text bold */
+  font-weight: 600; /* can also use font-weight: bold; */
+  /* webpage will attempt to change font to Roboto as priority. If browser/webpage does not support Roboto, fall back to sans-serif font */
+  font-family: 'Roboto', sans-serif;
+}
