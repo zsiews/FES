@@ -1,0 +1,44 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border: 15px solid red;
+  /* set padding to 15px all around */
+  padding: 15px 15px 15px 15px;
+  /* if all values are the same, you only need to enter it once */
+  margin: 15px;
+  /* border box = border + passing + content (better) */
+  /* content only changes dimensions of content */
+  box-sizing: border-box;
+}
+/*  */
+/*  */
+/*  */
+div {
+    height: 200px;
+    border: 3px solid black;
+
+}
+
+.red {
+    background-color: red;
+    /* relative will not change unless you specify top,left,bottom,right */
+    /* position: relative;
+    bottom: 10px;
+    right: 10px; */
+    position: relative;
+    /* need to set width manually */
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+.child {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+}
